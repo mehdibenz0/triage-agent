@@ -2,15 +2,7 @@
 
 ![Workflow demo](assets/demo.gif)
 
-A GitHub-ready portfolio project that turns incoming business requests into **structured triage decisions** and routes them through an **n8n automation workflow**.
-
-This is designed as the kind of project that speaks directly to an **AI & Automation Project Manager** role:
-- webhook intake from forms / CRM / ESM-like systems
-- low-code orchestration with n8n
-- Claude-powered classification
-- structured JSON output for reliable automation
-- routing to Slack / human review
-- operational documentation, risk handling, and a live agent registry
+A project that turns incoming business requests into **structured triage decisions** and routes them through an **n8n automation workflow**.
 
 ---
 
@@ -30,22 +22,6 @@ flowchart LR
     E -->|Ambiguous| H[Human Review]
     E -->|Spam| I[Ignore]
 ```
-
----
-
-## Why this project matters
-
-Most “AI portfolio projects” stop at a prompt and a nice output.  
-This one shows a **deployable business workflow**:
-
-1. An event arrives.
-2. It is normalized into a stable internal contract.
-3. Claude returns a schema-constrained triage decision.
-4. Routing logic turns the decision into action.
-5. The workflow remains explainable, testable, and documentable.
-
-That is exactly the difference between “I used an LLM” and “I can ship AI automations into an operations environment.”
-
 ---
 
 ## Repository structure
@@ -238,12 +214,6 @@ This is intentionally **not** a toy demo. It includes:
 - architecture diagram
 - live agent registry
 - metrics and rollout ideas
-
----
-
-## Interview pitch
-
-> “I built a triage automation for inbound business requests. n8n handles the workflow orchestration and a FastAPI service calls Claude to return a schema-constrained classification with intent, urgency, owner, action, and SLA. The workflow then routes urgent issues to Slack, standard items to a triage queue, and ambiguous cases to human review. I also documented the architecture, metrics, risk mitigations, and live agent registry because I wanted the repository to look like something an operations transformation team could actually deploy.”
 
 ---
 
