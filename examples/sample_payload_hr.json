@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "submission_id": "demo-hr-001",
+    "source": "web_form",
+    "requester_name": "Sophie Martin",
+    "requester_email": "sophie.martin@example.ch",
+    "company": "Alpine Retail SA",
+    "subject": "Question about meal allowance eligibility",
+    "message": "We onboarded 14 employees this month. Can meal benefits be activated retroactively for people who joined on the 3rd of May? We also need to understand the tax-free limit.",
+    "metadata": {
+      "language": "en",
+      "country": "CH"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "request": {
+    "submission_id": "demo-hr-001",
+    "source": "web_form",
+    "requester_name": "Sophie Martin",
+    "requester_email": "sophie.martin@example.ch",
+    "company": "Alpine Retail SA",
+    "subject": "Question about meal allowance eligibility",
+    "message": "We onboarded 14 employees this month. Can meal benefits be activated retroactively for people who joined on the 3rd of May? We also need to understand the tax-free limit."
+  },
+  "triage": {
+    "intent": "hr_benefits",
+    "urgency": "medium",
+    "confidence": 0.94,
+    "summary": "A company HR contact asks about retroactive meal benefit activation and the applicable tax-free limit.",
+    "extracted_entities": {
+      "benefit_type": [
+        "meal allowance"
+      ],
+      "jurisdiction": [
+        "Switzerland"
+      ]
+    },
+    "recommended_owner": "operations",
+    "recommended_action": "Confirm retroactive activation policy and provide the current tax-free limit guidance.",
+    "sla_hours": 24,
+    "needs_human_review": false,
+    "reasoning_brief": "This is an operational HR-benefits policy question with no immediate outage or escalation signal."
+  },
+  "route": "slack_triage",
+  "routing_reason": "Standard triage requests are routed to the shared operations queue."
+}

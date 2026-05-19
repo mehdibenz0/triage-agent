@@ -1,0 +1,42 @@
+{
+  "event_type": "form_response",
+  "form_response": {
+    "token": "tf-demo-003",
+    "submitted_at": "2026-05-19T08:15:00Z",
+    "hidden": {
+      "campaign": "ai-triage-demo"
+    },
+    "answers": [
+      {
+        "field": {
+          "ref": "name"
+        },
+        "text": "Nora Keller"
+      },
+      {
+        "field": {
+          "ref": "email"
+        },
+        "email": "nora.keller@example.ch"
+      },
+      {
+        "field": {
+          "ref": "company"
+        },
+        "text": "Lakeview Mobility SA"
+      },
+      {
+        "field": {
+          "ref": "subject"
+        },
+        "text": "Partner proposal for mobility discounts"
+      },
+      {
+        "field": {
+          "ref": "message"
+        },
+        "text": "We would like to explore a discount partnership for electric bike subscriptions available to employees in Vaud and Geneva."
+      }
+    ]
+  }
+}

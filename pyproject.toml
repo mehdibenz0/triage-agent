@@ -1,0 +1,22 @@
+[project]
+name = "swibeco-ai-triage-agent"
+version = "1.0.0"
+description = "Webhook → n8n → Claude structured triage → Slack/email routing portfolio project."
+requires-python = ">=3.11"
+authors = [{ name = "Mehdi Benzekri" }]
+readme = "README.md"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.34.0",
+  "httpx>=0.28.0",
+  "pydantic>=2.10.0",
+  "pydantic-settings>=2.7.0",
+  "python-dotenv>=1.0.1"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

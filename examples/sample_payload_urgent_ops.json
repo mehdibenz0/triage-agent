@@ -1,0 +1,15 @@
+{
+  "payload": {
+    "submission_id": "demo-tech-urgent-002",
+    "source": "esm",
+    "requester_name": "Luca Bernasconi",
+    "requester_email": "luca.bernasconi@example.ch",
+    "company": "Helvetia Services AG",
+    "subject": "Employee benefits card sync failed after CRM import",
+    "message": "Our HR team imported 220 employees this morning. The sync is stuck, newly created users do not appear in the benefits dashboard, and payroll closing is tomorrow. Please escalate.",
+    "metadata": {
+      "ticket_priority": "P1",
+      "region": "Romandie"
+    }
+  }
+}
