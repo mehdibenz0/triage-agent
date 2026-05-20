@@ -92,7 +92,7 @@ Example fields:
 
 ```bash
 git clone <your-repo-url>
-cd swibeco-ai-triage-agent
+cd ai-triage-agent
 cp .env.example .env
 ```
 
