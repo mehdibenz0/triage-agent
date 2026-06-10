@@ -188,16 +188,6 @@ The model is configured by environment variable:
 ANTHROPIC_MODEL=claude-sonnet-4-6
 ```
 
----
-
-## Suggested 30-second portfolio demo
-
-See:
-- [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md)
-
-Recommended asset:
-- `assets/demo.gif`
-- or a Loom link added to the README after recording
 
 ---
 
@@ -228,13 +218,4 @@ Do **not** commit:
 
 Use `.env` locally and secret management in production.
 
----
 
-## Next upgrades
-
-Strong V2 ideas:
-1. Add a small labeled evaluation set and intent accuracy report.
-2. Add Jira ticket creation for high-priority cases.
-3. Add a Confluence knowledge lookup step before triage.
-4. Add a lightweight dashboard for weekly automation impact.
-5. Add MCP-based tool integration as a follow-up portfolio project.
